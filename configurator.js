@@ -1,7 +1,6 @@
 const message = "Hello world"
 const helloDiv = document.getElementById("configurator-container")
 let index = 0
-window.integrationProxy = new IntegrationProxy()
 
 // Fonction pour afficher chaque lettre avec un délai
 function displayLetter() {
