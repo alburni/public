@@ -10,7 +10,7 @@ function displayLetter() {
     // Délai de 200 millisecondes entre chaque lettre
     setTimeout(displayLetter, 200)
   }
-  window.submit(message)
+  // window.submit(message)
 }
 
 displayLetter()
