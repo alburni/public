@@ -10,6 +10,7 @@ function displayLetter() {
     // Délai de 200 millisecondes entre chaque lettre
     setTimeout(displayLetter, 200)
   }
+  console.log(productId)
   submit(message)
 }
 
